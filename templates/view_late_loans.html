@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Late Loans</title>
+</head>
+<body>
+    <h1>Late Loans</h1>
+    <ul>
+        {% for late_loan in late_loans %}
+            <li>{{ late_loan }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Back to menu</a>
+</body>
+</html>

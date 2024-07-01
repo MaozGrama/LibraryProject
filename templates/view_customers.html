@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Customers</title>
+</head>
+<body>
+    <h1>All Customers</h1>
+    <ul>
+        {% for customer in customers %}
+            <li>{{ customer }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Back to menu</a>
+</body>
+</html>
