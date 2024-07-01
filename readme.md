@@ -1,6 +1,3 @@
-Sure! Here's an updated README for your library project at `https://github.com/MaozGrama/LibraryProject.git`.
-
-```markdown
 # Library Management System
 
 A simple library management system built using Flask for the web framework, SQLite for the database, and Bootstrap for styling. This system allows you to manage books, customers, and loans efficiently.
@@ -87,10 +84,3 @@ The HTML templates use Bootstrap for styling and are organized as follows:
 - `find_customer.html`: Template to find a customer by name.
 - `remove_book.html`: Template to remove a book.
 - `remove_customer.html`: Template to remove a customer.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-Ensure you adjust the content based on the actual structure and specifics of your project as needed.
